@@ -40,4 +40,5 @@ gem 'debugger', group: [:development, :test]
 gem "omniauth-google-oauth2", "~> 0.2.1"
 
 gem "gdata_19", require: 'gdata'
-
+gem "gmail", path: '/Users/ysiad/gmail'
+gem "gmail_xoauth"
