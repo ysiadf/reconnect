@@ -9,4 +9,8 @@ class User < ActiveRecord::Base
       user.save!
     end
   end
+
+  def get_contacts
+    Contact.populate(self)
+  end
 end
